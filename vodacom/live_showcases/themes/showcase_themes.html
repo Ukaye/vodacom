@@ -1,0 +1,40 @@
+<div id="showcases-text">
+    <h3>Personalize report design</h3>
+    <br>
+    <div id="showcases-description">
+        Personalize the colors and stylings of the visuals helping define styling and colors so you can match them to your application or brand color palette, for example.<br>
+    </div>
+    <!-- <div class="showcases-buttons">
+        <a class="selectButton floatButton" href="https://go.microsoft.com/fwlink/?linkid=2056144" target="_blank">Documentation</a>
+        <a class="selectButton floatButton" href="https://go.microsoft.com/fwlink/?linkid=2055980" target="_blank">Get Code</a>
+    </div> -->
+</div>
+
+<div id="showcaseContent">
+    <div id="leftShowcaseWindow">
+        <div class="editorTitle">Data colors</div>
+        <div id="themesDataColorsWrapper">
+            <div id="themesList">
+            </div>
+        </div>
+        <div class="editorTitle">Background</div>
+        <div id="themesBackgroundWrapper">
+            <div id="backgroundsList">
+            </div>
+        </div>
+    </div>
+    <div id="showcaseEmbedArea">
+        <div class="editorTitle">Embedded view</div>
+        <div id="themes-embedded-view">
+            <div id="embedContainer" class="iframeContainer active"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        embedThemesReport();
+        createThemesList();
+        createBackgroundsList();
+    });
+</script>
